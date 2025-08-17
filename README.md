@@ -1,70 +1,43 @@
-📖 Storybook Project
-This project is built with Vite + React + Storybook + TypeScript.
-It helps to develop, test, and showcase UI components in isolation.
+# 📖 Project Name
+
+A modern web application built with **React**, **typeScript**, **Tailwind CSS**, and **Storybook**.  
+The project is fully responsive and deployed on **Vercel**.
+
 
 ## 🚀 Live Demo
-👉 [View Storybook live site](https://react-components-storybook-kappa.vercel.app/?path=/story/components-datatable--default)
+👉 [Click Here to View the Project](https://react-components-storybook-kappa.vercel.app/?path=/story/components-datatable--default)
 
-📚 Storybook Setup
-Run Storybook
-bash
-Copy
-Edit
-npm run storybook
-Runs the Storybook server locally at:
-👉 http://localhost:6006
 
-Build Storybook (for production/deployment)
-bash
-Copy
-Edit
-npm run build-storybook
-This will generate a storybook-static folder with the production-ready Storybook build.
-
-🌐 Deployment (Vercel)
-Steps:
-Go to Vercel and import your GitHub repo.
-
-In Project Settings → Build & Development Settings:
-
-Framework Preset: Storybook
-
-Build Command:
-
-arduino
-Copy
-Edit
-npm run build-storybook
-Output Directory:
-
-cpp
-Copy
-Edit
-storybook-static
-Click Deploy 🚀
-
-After deployment, Vercel will give you a live Storybook URL. 🎉
-
-## 🌟 Features
-- ⚡ Fast bundling with Vite
-
-- 🎨 Component-driven development with Storybook
-
-- 🔥 Hot Module Replacement (HMR)
-
-- 🧩 Easy-to-use component previews
-
-- 🚀 Deployable on Vercel
+## 🛠️ Features
+- ⚡ Fast and optimized with **Vite**
+- 🎨 Styled using **Tailwind CSS**
+- 📚 UI components documented in **Storybook**
+- 🌍 Deployed with **Vercel**
 
 ## 🛠️ Technologies Used
 - React
 
-- Vite
+- TypeScript
 
 - Storybook
 
-- Tailwind CSS (if used)
+- Tailwind CSS 
 
 - Vercel (for deployment)
 
+## 📦 Installation & Setup
 
+Follow these steps to run the project locally:
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/jobayer58/React-Components-Storybook.git
+
+# 2. Navigate to project folder
+cd your-repo-name
+
+# 3. Install dependencies
+npm install
+
+# 4. Run the development server
+npm run dev
